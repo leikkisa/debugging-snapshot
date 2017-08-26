@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
   }
 
-  ;[].forEach.call(document.querySelectorAll('.delete-contact'), function(link){
+  [].forEach.call(document.querySelectorAll('.delete-contact'), function(link){
     link.addEventListener("click", confirmDelete)
   })
 
